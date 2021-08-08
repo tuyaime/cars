@@ -33,6 +33,12 @@
             text-align: left;
             text-transform: uppercase;
             font-family: Bold-BigShouldersDisplay;
+            font-weight: 700px;
+        }
+        
+        img {
+            height: 50px;
+            width: 50px;
         }
         
         p {
@@ -41,28 +47,53 @@
             text-align: left;
             font-size: 15px;
             font-family: Lexenda;
-            font-weight: 400%;
-            ;
+            font-weight: 400px;
+        }
+        
+        .dark-cyan {
+            background-color: hsl(184, 100%, 22%);
+        }
+        
+        .yellowish {
+            background-color: hsl(31, 77%, 52%);
+        }
+        
+        .very-dark-cyan {
+            background-color: hsl(179, 100%, 13%);
+        }
+        
+        .left-border {
+            border-radius: 6px 0 0 6px;
+        }
+        
+        .right-border {
+            border-radius: 0px 6 6 0px;
         }
         
         .column {
-            background-color: hsl(31, 77%, 52%);
             flex-direction: column;
+            /* justify-content: end; */
             display: flex;
-            height: 60%;
-            width: 20%;
-            padding: 2%;
-            border-radius: 6px;
+            height: 45%;
+            width: 17%;
+            padding: 5% 2%;
             margin-bottom: 30px;
         }
         
-        #button {
+        #btn {
             /* margin: auto;
 position: relative; */
+            margin-top: auto;
             width: 100px;
-            color: hsl(0, 0.75%);
+            color: hsl(33, 77%, 52%);
             border-radius: 70px;
-            border: 5px solid white;
+            border: none;
             background-color: hsl(0, 0%, 95%);
             cursor: pointer;
+            padding: 10px;
+            font-size: 15px;
+        }
+        
+        #btn:hover {
+            background-color: hsl(0, 0%, 88%);
         }
