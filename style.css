@@ -67,7 +67,7 @@
         }
         
         .right-border {
-            border-radius: 0px 6 6 0px;
+            border-radius: 0 6px 6px 0;
         }
         
         .column {
